@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/samjin-shop/static/css/main.30ea52ad.css",
-    "main.js": "/samjin-shop/static/js/main.ba91a044.js",
+    "main.js": "/samjin-shop/static/js/main.f2db49fa.js",
     "static/js/787.8723b9db.chunk.js": "/samjin-shop/static/js/787.8723b9db.chunk.js",
     "index.html": "/samjin-shop/index.html",
     "main.30ea52ad.css.map": "/samjin-shop/static/css/main.30ea52ad.css.map",
-    "main.ba91a044.js.map": "/samjin-shop/static/js/main.ba91a044.js.map",
+    "main.f2db49fa.js.map": "/samjin-shop/static/js/main.f2db49fa.js.map",
     "787.8723b9db.chunk.js.map": "/samjin-shop/static/js/787.8723b9db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30ea52ad.css",
-    "static/js/main.ba91a044.js"
+    "static/js/main.f2db49fa.js"
   ]
 }
