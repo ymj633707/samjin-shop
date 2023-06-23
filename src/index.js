@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux'
+import store from './pages/store'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+root.render( //여기서 만약 오류 뜰경우 strictMode를 삭제할것
   <React.StrictMode>
-    <App />
+      <Provider store={store}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </Provider>
   </React.StrictMode>
 );
 
