@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( //여기서 만약 오류 뜰경우 strictMode를 삭제할것
   <React.StrictMode>
       <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename='/samjin-shop'>
         <App />
       </BrowserRouter>
     </Provider>
